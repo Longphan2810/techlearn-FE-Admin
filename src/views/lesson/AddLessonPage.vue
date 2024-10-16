@@ -23,7 +23,7 @@
           <div class="col-md-12">
             <label for="title" class="form-label h5">Tiêu đề</label>
             <input
-              @input="validForm"
+              
               type="text"
               class="form-control"
               id="title"
@@ -46,9 +46,9 @@
         </div>
         <div class="row mb-3" v-if="dataLesson.type === 'LECTURES'">
           <div class="col-md-12">
-            <label for="video" class="form-label h5">Video URL</label>
+            <label for="video" class="form-label h5">URL youtube</label>
             <input
-              v-on:input="validForm"
+             
               type=""
               class="form-control"
               id="video"

@@ -24,6 +24,7 @@
           class="form-control"
           id="courseDescription"
           v-model="course.description"
+          rows="6"
           @input="validateForm"
         />
         <span v-if="course.errors.description" class="text-danger">{{
@@ -265,7 +266,7 @@ export default {
       isActive: true,
       isPublic: true,
       privatePoint: 30,
-      publicPoint: 15,
+      publicPoint: 3,
       errors: {
         name: "",
         description: "",
